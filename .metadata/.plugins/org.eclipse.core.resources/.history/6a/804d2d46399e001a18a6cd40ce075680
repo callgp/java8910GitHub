@@ -1,0 +1,5 @@
+module atientclinicals {
+	//requires patientmanagement;
+	
+	requires transitive patientmanagement;//if make transitive then PatientManagement is also accessed by whoever is calling Patient Clinicals(here ex. patientbilling)
+}

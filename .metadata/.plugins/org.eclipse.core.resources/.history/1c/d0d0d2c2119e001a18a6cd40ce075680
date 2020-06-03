@@ -1,0 +1,5 @@
+package com.gp.java9;
+
+public interface SendNotifications {
+
+}

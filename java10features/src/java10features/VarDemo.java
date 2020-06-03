@@ -1,0 +1,58 @@
+package java10features;
+
+import java.util.Map;
+import java.util.function.Consumer;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+public class VarDemo {
+	
+	//var String;//clas level variables not allowed as u have to asign "xyz" etc
+	//var String="xyz";//
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		var var = 10;// say x or y variable name to aloow backward comaptiblility as past var some
+						// one used as not keywaoard then
+
+		// Map<String,List<String>> map=new HashMap<String,List<String>>();
+
+		var map = new HashMap<String, List<String>>();// compiler infer lhs based on rhs
+
+		/*
+		 * for(Map.Entry<String, List<String>> entry:map.entrySet()) {
+		 * 
+		 * }//reduced code as below
+		 */
+		// }
+
+		for (var entry : map.entrySet()) {
+			//List<String> value = entry.getValue();
+			var value=entry.getValue();
+
+		}
+		//var on collection lhs belcome generic
+		var list=new ArrayList<>();
+		list.add(123);//ok
+		list.add("XYZ");//ok
+		
+		
+		//var s=null; not allowed
+		
+		//for lamba say specific type
+		
+		
+		Consumer<Integer> x=(i)->{
+			System.out.println(i);
+		};
+	}
+	
+	
+	/*var x=(i)->{//to assign lamba then should say explicityly...but inside ok
+	 *//var z=10;//ok here
+		System.out.println(i);
+	};*/
+}
+}

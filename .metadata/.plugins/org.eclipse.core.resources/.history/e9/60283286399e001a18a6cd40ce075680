@@ -1,0 +1,4 @@
+module patientmanagement {
+	exports com.gp.pr;
+	requires patientbilling;//error alsready cyclal there earlier
+}

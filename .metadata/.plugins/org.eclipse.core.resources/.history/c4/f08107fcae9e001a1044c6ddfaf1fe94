@@ -1,0 +1,17 @@
+package java10features;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.List;
+
+public class VarDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		var var=10;//say x or y variable name to aloow backward comaptiblility as past var some one used as not keywaoard then
+
+		Map<String,List<String>>=new HashMao<String,List<String>>();
+		
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.gp.java9.trywithresources;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+	}
+}

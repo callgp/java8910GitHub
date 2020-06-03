@@ -1,0 +1,22 @@
+package com.gp.java9;
+
+public interface SendNotifications {
+
+	default void sendNotifications() {
+		establishConnection();
+		System.out.println("sending multiple notificatiosn");
+	}
+	
+
+	default void sendNotification() {
+		establishConnection();
+		
+		System.out.println("sending  notificatiosn");
+	}
+	
+	private void establishConnection() {
+		System.out.println("establishing connectin");
+	}
+	
+	
+}

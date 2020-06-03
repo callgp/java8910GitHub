@@ -1,0 +1,27 @@
+import java.util.Optional;
+
+public class OptionalUpdates {
+
+	public static void main(String[] args) {
+		Optional<String> str=Optional.empty();
+		/*
+		if(!str.isPresent()) {//earlier no is empty mehtod now we have it
+			
+		}else {
+			
+		}*/
+		
+		System.out.println(str.isEmpty());
+		
+		
+		//Optional<String> str2=Optional.of("tt","ee");//only 1 param not 2
+		Optional<String> str2=Optional.of("tt");
+		System.out.println("after adding value "+str2.isEmpty());
+		
+		
+	}
+}
+/*
+ * true after adding value false
+ */
+

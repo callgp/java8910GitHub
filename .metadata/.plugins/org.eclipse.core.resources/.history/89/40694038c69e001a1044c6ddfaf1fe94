@@ -1,0 +1,20 @@
+import java.util.Optional;
+
+public class OptionalUpdates {
+
+	public static void main(String[] args) {
+		Optional<String> str=Optional.empty();
+		/*
+		if(!str.isPresent()) {//earlier no is empty mehtod now we have it
+			
+		}else {
+			
+		}*/
+		
+		System.out.println(str.isEmpty());
+		
+		
+		Optional<String> str=Optional.of("tt","ee");
+	}
+}
+//true

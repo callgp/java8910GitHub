@@ -1,0 +1,10 @@
+package com.gp.java12.collection;
+
+public class Result {
+
+	
+	private Long count;
+	
+	List<Integer> filtered;
+	
+}

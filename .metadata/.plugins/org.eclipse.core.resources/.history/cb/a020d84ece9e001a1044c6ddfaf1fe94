@@ -1,0 +1,13 @@
+package com.gp.stringapi;
+
+import java.text.NumberFormat;
+
+public class NumberFormatDemo {
+	
+	public static void main(String[] args) {
+		NumberFormat format = NumberFormat.getCompactNumberInstance();
+		
+		
+	}
+
+}

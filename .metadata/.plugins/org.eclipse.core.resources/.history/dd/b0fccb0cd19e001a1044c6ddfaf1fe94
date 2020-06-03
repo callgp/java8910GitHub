@@ -1,0 +1,11 @@
+package com.gp.java12.collection;
+
+import java.util.stream.Collectors;
+
+public class TeeingDemo {
+	
+	public static void main(String[] args) {
+		Stream.of(5,10,8,20,7).collect(Collectors.teeing(Collectors.counting(),Collectors.filtering(n->Integer.parseInt(n.toString())>10, Collectors.toList()),merger));//adds 2 dwnstreams uisn teeing
+	}
+
+}

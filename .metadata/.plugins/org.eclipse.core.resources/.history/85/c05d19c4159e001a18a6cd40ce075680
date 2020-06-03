@@ -1,0 +1,14 @@
+package com.gp.immutable;
+
+import java.util.List;
+
+public class DemoImmutableCollection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<String>.of("e1"," e2", "123");
+
+	}
+
+}

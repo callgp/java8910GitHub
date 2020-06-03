@@ -1,0 +1,22 @@
+package com.gp.java9;
+
+public class SendNotificationImpl implements SendNotifications {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SendNotifications sn=new SendNotificationImpl();
+		sn.sendNotifications();
+		sn.sendNotification();
+		
+
+	}
+
+}
+
+
+/*
+ * establishing connectin 
+ * sending multiple notificatiosn 
+ * establishing connectin
+ * sending notificatiosn
+ */

@@ -1,0 +1,3 @@
+module atientclinicals {
+	requires patientmanagement;
+}

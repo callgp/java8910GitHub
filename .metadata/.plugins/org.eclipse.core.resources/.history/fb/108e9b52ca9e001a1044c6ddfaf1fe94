@@ -1,0 +1,13 @@
+package com.gp.stringapi;
+
+public class StringFeatures {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String s="all the power there.do it please";
+		s.indent(5)
+
+	}
+
+}

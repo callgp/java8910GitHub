@@ -1,0 +1,9 @@
+package com.gp.java12.collection;
+
+public class TeeingDemo {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

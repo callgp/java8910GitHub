@@ -1,0 +1,5 @@
+package com.gp.java9.trywithresources;
+
+public class MyWorker implement AutoCloseable {
+
+}

@@ -1,0 +1,13 @@
+//package com.gp.pr;
+
+public class PatientRegistration {
+
+	
+	public void registerPatient() {
+		System.out.println("pationt rqd");
+	}
+	
+	public void getPatientDetails() {
+		System.out.println("patient details");
+	}
+}
