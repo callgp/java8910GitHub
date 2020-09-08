@@ -1,3 +1,0 @@
-module patientbilling {
-	requires patientclinicals;
-}

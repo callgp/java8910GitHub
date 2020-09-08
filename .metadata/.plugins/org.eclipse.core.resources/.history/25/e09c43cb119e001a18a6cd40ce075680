@@ -1,8 +1,0 @@
-package com.gp.java9;
-
-public interface SendNotifications {
-
-	default void sendNotifications() {
-		System.out.println("");
-	}
-}

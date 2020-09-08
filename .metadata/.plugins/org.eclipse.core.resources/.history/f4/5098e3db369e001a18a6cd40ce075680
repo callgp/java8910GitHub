@@ -1,3 +1,0 @@
-module atientclinicals {
-	requires com.gp.pr;
-}
